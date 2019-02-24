@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>DECO * ENCODER</title>
+  </head>
+  <body>
+    <div id="app">
+      <v-layout row wrap>
+        <v-flex xs6>
+            <div>
+                <label class="mb-0">Length：{{ len }}</label>
+             </div>
+                <div class="form-group mb-0">
+                  <v-textarea v-model="description"
+                            class="form-control" placeholder="Please input DECODE" height="150" ></v-textarea>
+                            <v-textarea class="mb-0" readonly v-model="replace" placeholder="Output CASE" height="150"></v-textarea>
+                </div>
+        </v-flex>
+      </v-layout>
+      </div>
+      <script>
+      </script>
+  </body>
+</html>
